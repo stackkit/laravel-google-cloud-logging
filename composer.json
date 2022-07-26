@@ -1,0 +1,31 @@
+{
+    "name": "stackkit/laravel-google-cloud-logging",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marick van Tuil",
+            "email": "info@marickvantuil.nl"
+        }
+    ],
+    "require": {
+        "google/cloud-logging": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stackkit\\LaravelGoogleCloudLogging\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "Factories\\": "factories/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stackkit\\LaravelGoogleCloudLogging\\LoggingServiceProvider"
+            ]
+        }
+    }
+}
