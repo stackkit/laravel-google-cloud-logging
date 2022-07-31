@@ -6,5 +6,3 @@ parameters:
         - src
     level: 9
     checkMissingIterableValueType: false
-    ignoreErrors:
-        - '/Cannot call method when\(\) on mixed/'
