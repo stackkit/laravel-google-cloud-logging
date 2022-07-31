@@ -37,4 +37,5 @@ jobs:
 
       - name: Execute checks
         run: |
+          composer install
           vendor/bin/phpstan
