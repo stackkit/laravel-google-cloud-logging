@@ -10,6 +10,12 @@
     "require": {
         "google/cloud-logging": "^1.10"
     },
+    "require-dev": {
+        "phpstan/phpstan": "^1.8",
+        "nunomaduro/larastan": "^1.0 || ^2.0",
+        "orchestra/testbench": "^4.0 || ^5.0 || ^6.0 || ^7.0",
+        "thecodingmachine/phpstan-safe-rule": "^1.2"
+    },
     "autoload": {
         "psr-4": {
             "Stackkit\\LaravelGoogleCloudLogging\\": "src/"
@@ -17,8 +23,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/",
-            "Factories\\": "factories/"
+            "Tests\\": "tests/"
         }
     },
     "extra": {
