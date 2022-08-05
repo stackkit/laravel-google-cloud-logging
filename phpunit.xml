@@ -10,6 +10,7 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite name="Testsuite">
+            <file>./tests/LogTest.php</file>
         </testsuite>
     </testsuites>
     <php>
